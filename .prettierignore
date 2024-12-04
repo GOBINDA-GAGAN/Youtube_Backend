@@ -1,0 +1,36 @@
+*.env
+.env
+.env.*
+# Ignore node_modules
+node_modules/
+
+# Ignore build directories
+build/
+dist/
+out/
+
+# Ignore environment variables
+.env
+
+# Ignore package-lock and yarn.lock files
+package-lock.json
+yarn.lock
+
+# Ignore coverage directories
+coverage/
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+
+# Ignore specific files (e.g., large files or generated files)
+public/assets/**/*.min.js
+public/assets/**/*.min.css
+
+# Ignore specific file types
+*.min.js
+*.min.css
